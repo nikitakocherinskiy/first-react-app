@@ -6,8 +6,14 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/first-react-app' element={<Articles />} />
-				<Route path='/about' element={<About />} />
+				<Route
+					path='http://nikitakocherinskiy.github.io/first-react-app'
+					element={<Articles />}
+				/>
+				<Route
+					path='http://nikitakocherinskiy.github.io/about'
+					element={<About />}
+				/>
 			</Routes>
 		</BrowserRouter>
 	)
