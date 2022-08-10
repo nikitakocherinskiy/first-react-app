@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fisrt-react-app/static/css/main.95ff3fd1.css",
+    "main.js": "/fisrt-react-app/static/js/main.2af11b03.js",
+    "static/js/787.ff88f529.chunk.js": "/fisrt-react-app/static/js/787.ff88f529.chunk.js",
+    "static/media/logo.svg": "/fisrt-react-app/static/media/logo.ee46d56c6f3d642d19897e7d448b133a.svg",
+    "index.html": "/fisrt-react-app/index.html",
+    "main.95ff3fd1.css.map": "/fisrt-react-app/static/css/main.95ff3fd1.css.map",
+    "main.2af11b03.js.map": "/fisrt-react-app/static/js/main.2af11b03.js.map",
+    "787.ff88f529.chunk.js.map": "/fisrt-react-app/static/js/787.ff88f529.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95ff3fd1.css",
+    "static/js/main.2af11b03.js"
+  ]
+}
