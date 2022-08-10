@@ -1,21 +1,21 @@
 import Articles from './components/Articles/Articles'
 import About from './About'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom'
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route
-					path='http://nikitakocherinskiy.github.io/first-react-app'
+					path='http://nikitakocherinskiy.github.io/#/first-react-app'
 					element={<Articles />}
 				/>
 				<Route
-					path='http://nikitakocherinskiy.github.io/about'
+					path='http://nikitakocherinskiy.github.io/#/about'
 					element={<About />}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
