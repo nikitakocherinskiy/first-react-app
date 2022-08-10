@@ -7,11 +7,11 @@ function App() {
 		<HashRouter>
 			<Routes>
 				<Route
-					path='https://nikitakocherinskiy.github.io/#/first-react-app'
+					path='https://nikitakocherinskiy.github.io/first-react-app/#/first-react-app'
 					element={<Articles />}
 				/>
 				<Route
-					path='https://nikitakocherinskiy.github.io/#/about'
+					path='https://nikitakocherinskiy.github.io/first-react-app/#/first-react-app/about'
 					element={<About />}
 				/>
 			</Routes>
