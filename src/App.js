@@ -6,14 +6,8 @@ function App() {
 	return (
 		<HashRouter>
 			<Routes>
-				<Route
-					path='https://nikitakocherinskiy.github.io/first-react-app/#/first-react-app'
-					element={<Articles />}
-				/>
-				<Route
-					path='https://nikitakocherinskiy.github.io/first-react-app/#/first-react-app/about'
-					element={<About />}
-				/>
+				<Route exact path='/' element={<Articles />} />
+				<Route path='/about' element={<About />} />
 			</Routes>
 		</HashRouter>
 	)

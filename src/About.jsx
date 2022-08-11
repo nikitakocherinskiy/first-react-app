@@ -7,9 +7,7 @@ const About = () => {
 		<div style={{ padding: '20px 40px' }}>
 			<Header />
 			About company
-			<Link to='https://nikitakocherinskiy.github.io/first-react-app/#/first-react-app'>
-				Back to Home
-			</Link>
+			<Link to='/'>Back to Home</Link>
 		</div>
 	)
 }
